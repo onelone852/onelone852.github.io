@@ -2,7 +2,7 @@
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 function setUserName() {
-  let myName = prompt('Please enter your name.');
+  let myName = prompt('Please enter your name.(but do not enter your real name.)');
   if(!myName || myName === null) {
     setUserName();
   } else {
