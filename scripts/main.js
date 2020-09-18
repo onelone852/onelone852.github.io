@@ -3,7 +3,7 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 function setUserName() {
   let myName = prompt('輸入你的名字~');
-  if(!myName || myName === Hugo) {
+  if(!myName || myName == null) {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
