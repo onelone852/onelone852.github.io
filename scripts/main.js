@@ -4,8 +4,8 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
   let myName = prompt('輸入你的名字~');
   if(！myName) {
+  setUserName();
   } else {
-   setUserName();
     localStorage.setItem('name', myName);
     myHeading.innerHTML = '嗨! ' + myName;
   }
