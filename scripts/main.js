@@ -2,19 +2,19 @@
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 function setUserName() {
-  let myName = prompt('Please enter your name,but do not enter your real name.');
-  if(!myName || myName === null) {
+  let myName = prompt('輸入你的名字~');
+  if(!myName || myName === Hugo) {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Hi!, ' + myName;
+    myHeading.innerHTML = '嗨!' + myName;
   }
 }
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Hi!, ' + storedName;
+  myHeading.innerHTML = '嗨!' + storedName;
 }
 myButton.onclick = function() {
   setUserName();
