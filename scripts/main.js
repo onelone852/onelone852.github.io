@@ -6,7 +6,6 @@ function setUserName() {
     localStorage.setItem('name', myName);
     myHeading.innerHTML = '嗨! ' + myName;
   }
-}
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
