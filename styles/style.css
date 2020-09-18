@@ -5,12 +5,12 @@ html {
 
 
 h1 {
-  font-size: 60px;
+  font-size: 65px;
   text-align: center;
 }
 
 p, li {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 2;
   letter-spacing: 1px;
   color : blue;
@@ -18,7 +18,7 @@ p, li {
 
 
 marquee {
- font-size: 15px;
+ font-size: 20px;
  color: red;
 } 
 
