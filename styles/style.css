@@ -13,6 +13,7 @@ p, li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
+  color : blue;
 }
 
 
@@ -33,9 +34,4 @@ h1 {
   padding: 20px 0;
   color: #00539F;
   text-shadow: 3px 3px 1px black;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
 }
