@@ -7,14 +7,14 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = '嗨!' + myName;
+    myHeading.innerHTML = '嗨! ' + myName;
   }
 }
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = '嗨!' + storedName;
+  myHeading.innerHTML = '嗨! ' + storedName;
 }
 myButton.onclick = function() {
   setUserName();
