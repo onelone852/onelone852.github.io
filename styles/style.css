@@ -17,6 +17,15 @@ p, li {
 }
 
 
+marquee {
+ font-size: 15px;
+ color: red;
+} 
+
+
+
+
+
 html {
   background-color: green;
 }
