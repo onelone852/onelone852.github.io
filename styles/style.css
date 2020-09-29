@@ -13,6 +13,12 @@ h1 {
   text-align: center;
 }
 
+
+h2 {
+ font-size: 40px;
+ text-align: center;
+ color: green;
+
 p, li {
   font-size: 30px;
   line-height: 2;
