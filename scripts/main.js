@@ -2,7 +2,7 @@
 <div id="side_comment_form"></div><div id="comment_form_info"><a href="https://www.wfublog.com/2015/04/blogger-comment-form.html">ⓦ Comment Form</a></div>
 <script>
 (function($) {
-var postUrl = "http://www.wfublog.com/2014/01/guestbook-2.html", // 填入留言板文章網址
+var postUrl = "onelone852.github.io", // 填入留言板文章網址
 height = 200, // 留言板高度
 reg = /\/20.*\.html/,
 url = postUrl.match(reg),
