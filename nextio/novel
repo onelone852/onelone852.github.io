@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<title>我的網站</title>
+</head>
+<boby>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<h1>暫未開放</h1>
+<p>可以隨意看看!<br>(不定時更新)</p><br>
+<div>
+<a href="https://onelone852.github.io/nextio">次主頁1</a><br>
+<a href="https://onelone852.github.io/nextio/novel">小說</a><br>
+</div>
+</boby>	
+</html>
